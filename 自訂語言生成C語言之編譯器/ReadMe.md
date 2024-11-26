@@ -18,8 +18,8 @@ gec.c: 將QV編譯後的C語言
     5. 產生gen.c
 
 ## 測試結果
-以下為執行./codeGenerator sample.qv gen.c後的結果  
-sample.qv會宣告一個3X3的矩陣並將其顯示，並將其轉置後再顯示一次　　
+sample.qv會宣告一個3X3的矩陣並將其顯示，並將其轉置後再顯示一次  
+以下為執行./codeGenerator sample.qv gen.c後的結果
 ### sample.qv
 ![image](https://github.com/user-attachments/assets/7ad4a9e0-cdb7-445f-9a14-d667c3c1383a)
 ### gen.c
