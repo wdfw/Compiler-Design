@@ -1,13 +1,12 @@
 ## 專案說明
-在本次專案中，我們要以啟發式的方式實現多層布林代數的化簡演算法，我們要透過algebraic division、decomposition、  
-kernel extraction、substitution等四個代數操作來最小化布林代數的數量
-1. 讀取.blif檔來設定電路的邏輯關係
-2. 對這些多層級的布林代數進行化簡
-3. 輸出簡化後的.blif檔
+在本次專案中，我們要透過Yacc與Lex等工具對QV這個自訂義的程式語言進行編譯，生成對應的Ｃcode，
+而在解析自訂義語言的過程中，需要選擇適當的資料結構以保存解析符號的資料，並在解析到對應的符號
+後進行對應的操作。
 ## 檔案說明  
-main.cpp:　輸入與輸出的主檔案  
-Utils.cpp:　包含表示邏輯的資料結構與代數化簡的演算法  
-sample.blif: 測試用的.blif檔
+main.c:　輸入與輸出的主檔案  
+lex.l, yacc.y:　Yacc與Lex的解析規則
+
+
 ## 使用方法(要安裝Boost Libraries才可以正常使用)
     1. 進入此專案
     2. 輸入 cmake .
