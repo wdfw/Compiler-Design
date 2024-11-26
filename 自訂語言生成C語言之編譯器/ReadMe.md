@@ -4,7 +4,7 @@
 ## 檔案說明  
 main.c: 輸入與輸出的主檔案  
 main.h: 資料結構與各種對應操作的實現 (在.h實現是因為lex.l, yacc.y的生成順序會與main.c或其他.c檔衝突)  
-lex.l, yacc.y: 解析文本與生成的規則，Yacc與Lex等工具會基於此規則生成對應的C code
+lex.l, yacc.y: 解析文本與生成的規則，Yacc與Lex等工具會基於此規則生成對應的C code  
 sample.qv: 使用QV語言的測試檔案  
 gec.c: 將QV編譯後的C語言  
 [Compiler2024]B10902227-codegenerate.pdf: 本專案實現的功能
