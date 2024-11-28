@@ -15,7 +15,7 @@ gec.c: 將QV編譯後的C語言
     4. 輸入 ./codeGenerator [sample.qv] [out.c]
         sample.qv: 要編譯的.qv檔
         out.c: 輸出的.c檔
-    5. 產生gen.c
+    5. 產生out.c
 
 ## 測試結果
 sample.qv會宣告一個3X3的矩陣並將其顯示，並將其轉置後再顯示一次  
